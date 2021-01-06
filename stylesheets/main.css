@@ -1,0 +1,65 @@
+/* CSS Document */
+
+body {
+	color: #F5F5F5;
+	background-color: #F5F5F5;
+}
+
+h1 {
+	text-align: left;
+	font-size: 4em;
+	font-family: acumin-pro-wide,sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.w3-sidebar {
+	display: flex;
+	flex-direction: column;
+	padding: none;
+	text-align: center;
+	background-color: #080f08;
+	width: 6%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.5);
+}
+
+.w3-bar-item img {
+	width:5%;
+	height: auto;
+	padding-top: 0px;
+	padding-bottom: 3px;
+}
+
+.w3-sidebar .w3-button {
+    text-align: center;
+    font-size: 2em;
+	font-family: acumin-pro-wide,sans-serif;
+	font-weight: 100;
+	font-style: normal;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+	flex: 1;
+}
+
+.main {
+	text-align: center;
+	font-family: acumin-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.1em;
+	color: #080f08;
+	margin-left: 6%;
+	padding: 1px 0 0 20px;
+}
+
+img {
+	max-height: 100%;
+	min-width: 100%;
+}
+
+hr {
+	margin-right: 20px;
+	border-color: #ccc
+}
